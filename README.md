@@ -36,7 +36,7 @@ GSP finds application in various domains such as market basket analysis, web usa
 
 8. Visulaize the sequence patterns using matplotlib.
 ### Program:
-
+```
 from collections import defaultdict
 from itertools import combinations
 # Function to generate candidate k-item sequences
@@ -108,11 +108,12 @@ if party_wear_result:
   print(f"Pattern: {pattern}, Support: {support}")
 else:
  print("No frequent sequential patterns found in Party Wear.")
-
+```
 ### Output:
 ![image](https://github.com/Revathi-Dayalan/WDM_EXP3/assets/96000574/9dd92783-3beb-4537-9027-c68c9e085be7)
 
 ### Visualization:
+```
   import matplotlib.pyplot as plt
 
 # Function to visualize frequent sequential patterns with a line plot
@@ -135,7 +136,7 @@ def visualize_patterns_line(result, category):
 visualize_patterns_line(top_wear_result, 'Top Wear')
 visualize_patterns_line(bottom_wear_result, 'Bottom Wear')
 visualize_patterns_line(party_wear_result, 'Party Wear')
-
+```
 ### OUTPUT:
 ![image](https://github.com/Revathi-Dayalan/WDM_EXP3/assets/96000574/b1c617d7-efbc-4ec6-b387-e34cb9807213)
 ![image](https://github.com/Revathi-Dayalan/WDM_EXP3/assets/96000574/0ee2e8cb-dfbe-461b-b36e-75b24be0cefb)
